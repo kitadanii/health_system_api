@@ -1,0 +1,222 @@
+openapi: 3.0.0
+info:
+  title: Health System API
+  version: "1.0.0"
+  description: API para gerenciamento de pacientes e consultas
+  contact:
+    email: hecarinoktidani@gmail.com
+tags:
+  - name: PACIENTES
+    description: Operações relacionadas a pacientes
+  - name: CONSULTAS
+    description: Operações relacionadas a consultas
+
+paths:
+  /pacientes:
+    get:
+      tags:
+        - PACIENTES
+      summary: Recupera todos os pacientes
+      operationId: getPacientes
+      responses:
+        '200':
+          description: Lista de pacientes
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  pacientes:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                        nome:
+                          type: string
+                        dataNascimento:
+                          type: string
+                          format: date
+                        sexo:
+                          type: string
+                        telefone:
+                          type: string
+                        email:
+                          type: string
+                        endereco:
+                          type: object
+                          properties:
+                            logradouro:
+                              type: string
+                            numero:
+                              type: string
+                            bairro:
+                              type: string
+                            cidade:
+                              type: string
+                            estado:
+                              type: string
+                        convenio:
+                          type: object
+                          properties:
+                            id:
+                              type: integer
+                            nome:
+                              type: string
+                            dataInicio:
+                              type: string
+                              format: date
+                            dataFim:
+                              type: string
+                              format: date
+
+    post:
+      tags:
+        - PACIENTES
+      summary: Registra um novo paciente
+      operationId: addPaciente
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                nome:
+                  type: string
+                dataNascimento:
+                  type: string
+                  format: date
+                sexo:
+                  type: string
+                telefone:
+                  type: string
+                email:
+                  type: string
+                endereco:
+                  type: object
+                  properties:
+                    logradouro:
+                      type: string
+                    numero:
+                      type: string
+                    bairro:
+                      type: string
+                    cidade:
+                      type: string
+                    estado:
+                      type: string
+                convenio:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    nome:
+                      type: string
+                    dataInicio:
+                      type: string
+                      format: date
+                    dataFim:
+                      type: string
+                      format: date
+      responses:
+        '201':
+          description: Paciente registrado com sucesso
+        '400':
+          description: Dados inválidos
+
+  /consultas:
+    get:
+      tags:
+        - CONSULTAS
+      summary: Recupera todas as consultas
+      operationId: getConsultas
+      responses:
+        '200':
+          description: Lista de consultas
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  consultas:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: integer
+                        pacienteId:
+                          type: integer
+                        medicoId:
+                          type: integer
+                        dataConsulta:
+                          type: string
+                          format: date
+                        especialidade:
+                          type: string
+                        status:
+                          type: string
+                        observacoes:
+                          type: string
+                        dataRegistro:
+                          type: string
+                          format: date
+                        endereco:
+                          type: object
+                          properties:
+                            logradouro:
+                              type: string
+                            numero:
+                              type: string
+                            bairro:
+                              type: string
+                            cidade:
+                              type: string
+                            estado:
+                              type: string
+
+    post:
+      tags:
+        - CONSULTAS
+      summary: Registra uma nova consulta
+      operationId: addConsulta
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                pacienteId:
+                  type: integer
+                medicoId:
+                  type: integer
+                dataConsulta:
+                  type: string
+                  format: date
+                especialidade:
+                  type: string
+                status:
+                  type: string
+                observacoes:
+                  type: string
+                endereco:
+                  type: object
+                  properties:
+                    logradouro:
+                      type: string
+                    numero:
+                      type: string
+                    bairro:
+                      type: string
+                    cidade:
+                      type: string
+                    estado:
+                      type: string
+      responses:
+        '201':
+          description: Consulta registrada com sucesso
+        '400':
+          description: Dados inválidos

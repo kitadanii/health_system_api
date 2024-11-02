@@ -1,0 +1,65 @@
+<pacientes>
+    <paciente>
+        <id>1</id>
+        <nome>Henrique Cariño Kitadani</nome>
+        <dataNascimento>2003-04-27</dataNascimento>
+        <sexo>Masculino</sexo>
+        <telefone>(19) 97112-2755</telefone>
+        <email>hecarinokitadani@gmail.com</email>
+        <endereco>
+            <logradouro>Rua Toronto</logradouro>
+            <numero>111</numero>
+            <bairro>Jardim Montreal Residence</bairro>
+            <cidade>Indaiatuba</cidade>
+            <estado>SP</estado>
+        </endereco>
+        <convenio>
+            <id>1</id>
+            <nome>Unimed</nome>
+            <dataInicio>2024-06-03</dataInicio>
+            <dataFim>2025-06-03</dataFim>
+        </convenio>
+    </paciente>
+    <paciente>
+        <id>2</id>
+        <nome>Kaylane Klinke Gurther</nome>
+        <dataNascimento>2005-02-04</dataNascimento>
+        <sexo>Feminino</sexo>
+        <telefone>(11) 92345-6789</telefone>
+        <email>kaylanekgurther@gmail.com</email>
+        <endereco>
+            <logradouro>Rua Estanislau</logradouro>
+            <numero>161</numero>
+            <bairro>Itaici</bairro>
+            <cidade>Indaiatuba</cidade>
+            <estado>SP</estado>
+        </endereco>
+        <convenio>
+            <id>1</id>
+            <nome>Unimed</nome>
+            <dataInicio>2024-06-01</dataInicio>
+            <dataFim>2025-06-01</dataFim>
+        </convenio>
+    </paciente>
+    <paciente>
+        <id>3</id>
+        <nome>Sergio Kitadani</nome>
+        <dataNascimento>1977-12-03</dataNascimento>
+        <sexo>Masculino</sexo>
+        <telefone>(11) 93456-7890</telefone>
+        <email>skitadani@gmail.com</email>
+        <endereco>
+            <logradouro>Rua Toronto</logradouro>
+            <numero>111</numero>
+            <bairro>Jardim Montreal Residence</bairro>
+            <cidade>Indaiatuba</cidade>
+            <estado>SP</estado>
+        </endereco>
+        <convenio>
+            <id>2</id>
+            <nome>Bradesco Saúde</nome>
+            <dataInicio>2024-02-15</dataInicio>
+            <dataFim>2026-02-15</dataFim>
+        </convenio>
+    </paciente>
+</pacientes>

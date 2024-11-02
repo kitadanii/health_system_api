@@ -1,0 +1,55 @@
+{
+    "consultas": [
+        {
+            "id": 1,
+            "pacienteId": 1,
+            "medicoId": 2,
+            "dataConsulta": "2024-11-10",
+            "especialidade": "Cardiologia",
+            "status": "Agendada",
+            "observacoes": "Consulta de rotina",
+            "dataRegistro": "2024-12-05",
+            "endereco": {
+                "logradouro": "Rua Judas",
+                "numero": "333",
+                "bairro": "Caminho da Luz",
+                "cidade": "Indaiatuba",
+                "estado": "SP"
+            }
+        },
+        {
+            "id": 2,
+            "pacienteId": 2,
+            "medicoId": 3,
+            "dataConsulta": "2024-11-15",
+            "especialidade": "Aparelho digestivo",
+            "status": "Agendada",
+            "observacoes": "Análise de hérnia",
+            "dataRegistro": "2024-12-01",
+            "endereco": {
+                "logradouro": "Rua das Palmeiras",
+                "numero": "456",
+                "bairro": "Centro",
+                "cidade": "Indaiatuba",
+                "estado": "SP"
+            }
+        },
+        {
+            "id": 3,
+            "pacienteId": 3,
+            "medicoId": 4,
+            "dataConsulta": "2024-12-01",
+            "especialidade": "Dermatologia",
+            "status": "Agendada",
+            "observacoes": "Exame de pele",
+            "dataRegistro": "2024-11-01",
+            "endereco": {
+                "logradouro": "Avenida Brasil",
+                "numero": "789",
+                "bairro": "Jardim Paulista",
+                "cidade": "Indaiatuba",
+                "estado": "SP"
+            }
+        }
+    ]
+}

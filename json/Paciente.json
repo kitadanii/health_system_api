@@ -1,0 +1,68 @@
+{
+    "pacientes": [
+        {
+            "id": 1,
+            "nome": "Henrique Cariño Kitadani",
+            "dataNascimento": "2003-04-27",
+            "sexo": "Masculino",
+            "telefone": "(19) 97112-2755",
+            "email": "hecarinokitadani@gmail.com",
+            "endereco": {
+                "logradouro": "Rua Toronto",
+                "numero": "111",
+                "bairro": "Jardim Montreal Residence",
+                "cidade": "Indaiatuba",
+                "estado": "SP"
+            },
+            "convenio": {
+                "id": 1,
+                "nome": "Unimed",
+                "dataInicio": "2024-06-03",
+                "dataFim": "2025-06-03"
+            }
+        },
+        {
+            "id": 2,
+            "nome": "Kaylane Klinke Gurther",
+            "dataNascimento": "2005-02-04",
+            "sexo": "Feminino",
+            "telefone": "(11) 92345-6789",
+            "email": "kaylanekgurther@gmail.com",
+            "endereco": {
+                "logradouro": "Rua estanislau",
+                "numero": "161",
+                "bairro": "Itaici",
+                "cidade": "Indaiatuba",
+                "estado": "SP"
+            },
+            "convenio": {
+                "id": 1,
+                "nome": "Unimed",
+                "dataInicio": "2024-06-01",
+                "dataFim": "2025-06-01"
+            }
+        },
+        {
+            "id": 3,
+            "nome": "Sergio Kitadani",
+            "dataNascimento": "1977-12-03",
+            "sexo": "Masculino",
+            "telefone": "(11) 93456-7890",
+            "email": "skitadani@gmail.com",
+            "endereco": {
+                "logradouro": "Rua Toronto",
+                "numero": "111",
+                "bairro": "Jardim Montreal Residence",
+                "cidade": "Indaiatuba",
+                "estado": "SP"
+            },
+            "convenio": {
+                "id": 2,
+                "nome": "Bradesco Saúde",
+                "dataInicio": "2024-02-15",
+                "dataFim": "2026-02-15"
+            }
+        }
+    ]
+}
+

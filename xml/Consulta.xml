@@ -1,0 +1,53 @@
+<consultas>
+    <consulta>
+        <id>1</id>
+        <pacienteId>1</pacienteId>
+        <medicoId>2</medicoId>
+        <dataConsulta>2024-11-10</dataConsulta>
+        <especialidade>Cardiologia</especialidade>
+        <status>Agendada</status>
+        <observacoes>Consulta de rotina</observacoes>
+        <dataRegistro>2024-12-05</dataRegistro>
+        <endereco>
+            <logradouro>Rua Judas</logradouro>
+            <numero>333</numero>
+            <bairro>Caminho da Luz</bairro>
+            <cidade>Indaiatuba</cidade>
+            <estado>SP</estado>
+        </endereco>
+    </consulta>
+    <consulta>
+        <id>2</id>
+        <pacienteId>2</pacienteId>
+        <medicoId>3</medicoId>
+        <dataConsulta>2024-11-15</dataConsulta>
+        <especialidade>Aparelho digestivo</especialidade>
+        <status>Agendada</status>
+        <observacoes>Análise de hérnia</observacoes>
+        <dataRegistro>2024-12-01</dataRegistro>
+        <endereco>
+            <logradouro>Rua das Palmeiras</logradouro>
+            <numero>456</numero>
+            <bairro>Centro</bairro>
+            <cidade>Indaiatuba</cidade>
+            <estado>SP</estado>
+        </endereco>
+    </consulta>
+    <consulta>
+        <id>3</id>
+        <pacienteId>3</pacienteId>
+        <medicoId>4</medicoId>
+        <dataConsulta>2024-12-01</dataConsulta>
+        <especialidade>Dermatologia</especialidade>
+        <status>Agendada</status>
+        <observacoes>Exame de pele</observacoes>
+        <dataRegistro>2024-11-01</dataRegistro>
+        <endereco>
+            <logradouro>Avenida Brasil</logradouro>
+            <numero>789</numero>
+            <bairro>Jardim Paulista</bairro>
+            <cidade>Indaiatuba</cidade>
+            <estado>SP</estado>
+        </endereco>
+    </consulta>
+</consultas>
